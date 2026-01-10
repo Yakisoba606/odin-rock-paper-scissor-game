@@ -9,11 +9,14 @@ function getComputerChoice(){
 
 function getHumanChoice(){
 
-    prompt("Let's play rock-paper-scissor")
+    choice = prompt("Let's play rock-paper-scissor")
+    return choice.toLowerCase();
 }
 
 function playRound(humanChoice, computerChoice){
 
+    console.log(humanChoice);
+    console.log(computerChoice);
 
 }
 
@@ -22,4 +25,6 @@ const computerSelection = getComputerChoice();
 
 playRound(humanSelection, computerSelection);
 
+let playGame = (playRound) => {
 
+}
