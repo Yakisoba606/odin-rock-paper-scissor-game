@@ -8,18 +8,29 @@ Declare variable for humanScore
 Declare variable for computerScore
 
 Create humanChoice function
-GET humanChoice
+Get humanChoice using prompt
 
 Create computerChoice function
 Get computerChoice using random
 
+Create playRound function
+    If humanChoice equals computerChoice
+        Increase nothing
+    Elif humanChoice equals rock and computerChoice equals paper 
+        Increase computerScore
+    Elif humanChoice equals rock and computerChoice equals scissor
+        Increase humanScore
+    Elif humanChoice equals scissor and computerChoice equals rock
+        Increase computerScore
+    Elif humanChoice equals scissor and computerChoice equals paper
+        Increase humanScore
+    Elif humanChoice equals paper and computerChoice equals rock
+        Increase computerScore
+    Elif humanChoice equals paper and computerChoice equals scissor
+        Increase humanScore
+
+
 Create playGame function
-    Create playRound function
-    Play five rounds
-        Compare humanChoice and computerChoice
-        If humanChoice greater than computerChoice
-            Increase humanScore
-        Elif 
-            Increase computerChoice
+    Loop playRound for five times
 
   -->
