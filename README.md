@@ -3,7 +3,6 @@
 
 <!-- 
 Pseudocode
-
 Declare variable for humanScore
 Declare variable for computerScore
 
@@ -15,7 +14,7 @@ Get computerChoice using random
 
 Create playRound function
     If humanChoice equals computerChoice
-        Increase nothing
+        Increase none
     Elif humanChoice equals rock and computerChoice equals paper 
         Increase computerScore
     Elif humanChoice equals rock and computerChoice equals scissor
@@ -32,5 +31,14 @@ Create playRound function
 
 Create playGame function
     Loop playRound for five times
+    Call comptureChoice
+    Call humanChoice
+    Call playRound
+    If humanScore bigger than computerScore
+        Human Wins
+    Else 
+        Computer Wins
+
+Call playGame
 
   -->
