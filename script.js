@@ -43,12 +43,12 @@ function playGame() {
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
     playRound(humanSelection, computerSelection);
-    if (humanScore > computerScore) {
+  }
+  if (humanScore > computerScore) {
       return console.log(`Human wins ${humanScore} | ${computerScore}`);
     } else {
       return console.log(`Computer wins ${humanScore} | ${computerScore}`);
     }
-  }
 }
 
 playGame();

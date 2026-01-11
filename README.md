@@ -31,13 +31,13 @@ Create playRound function
 
 Create playGame function
     Loop playRound for five times
-    Call comptureChoice
-    Call humanChoice
-    Call playRound
-    If humanScore bigger than computerScore
-        Human Wins
-    Else 
-        Computer Wins
+        Call comptureChoice
+        Call humanChoice
+        Call playRound
+        If humanScore bigger than computerScore
+            Human Wins
+        Else 
+            Computer Wins
 
 Call playGame
 
