@@ -2,7 +2,12 @@ let humanScore = 0;
 let computerScore = 0;
 
 function getHumanChoice() {
-  choice = prompt("Let's play rock-paper-scissor");
+  let choice = prompt("Let's play rock-paper-scissor");
+
+  while(!choice){
+    choice = prompt("Let's play rock-paper-scissor");
+  }
+
   return choice.toLowerCase();
 }
 
