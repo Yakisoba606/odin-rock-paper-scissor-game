@@ -34,10 +34,10 @@ Create playGame function
         Call comptureChoice
         Call humanChoice
         Call playRound
-        If humanScore bigger than computerScore
-            Human Wins
-        Else 
-            Computer Wins
+If humanScore bigger than computerScore
+    Human Wins
+Else 
+    Computer Wins
 
 Call playGame
 
