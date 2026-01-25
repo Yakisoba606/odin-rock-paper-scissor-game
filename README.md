@@ -42,3 +42,42 @@ Else
 Call playGame
 
   -->
+
+
+<!-- 
+Pseudocode
+Declare variable for humanScore
+Declare variable for computerScore
+
+Create humanChoice function
+Get humanChoice using button and pass value to callBack 'playGame'
+
+Create computerChoice function
+Get computerChoice using random
+
+Create playRound function
+    If humanChoice equals computerChoice
+        Increase none
+    Elif humanChoice equals rock and computerChoice equals paper 
+        Increase computerScore
+    Elif humanChoice equals rock and computerChoice equals scissor
+        Increase humanScore
+    Elif humanChoice equals scissor and computerChoice equals rock
+        Increase computerScore
+    Elif humanChoice equals scissor and computerChoice equals paper
+        Increase humanScore
+    Elif humanChoice equals paper and computerChoice equals rock
+        Increase computerScore
+    Elif humanChoice equals paper and computerChoice equals scissor
+        Increase humanScore
+
+
+Create playGame function
+    If humanScore OR computerScore greater than 5
+        Stop Game
+
+    Call comptureChoice
+    Call playRound        
+
+  -->
+
